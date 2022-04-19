@@ -1,0 +1,121 @@
+body {
+	background-color:  #FFEEEF;
+	font-family: 'Lora', serif;
+	font-size: 17px;
+}
+
+h1,h2,h3 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	color: darkred;
+	font-weight: 900;
+	font-size: 32px;
+}
+
+h2 {
+	color: rgb(50, 100, 50);
+	font-weight: bold;
+	font-size: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: normal;
+	font-family: roboto;
+	font-size: 18px;
+}
+
+a:hover {
+	color: white;
+}
+
+P {
+	color: #000000;
+	font-size: 17px;
+	//text-align: center;
+
+}
+
+#profilepic {
+	border-radius: 50%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.shadow {
+	box-shadow: 0.1px 0.1px 0.1px black;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 0.5px 15px 35px rgba(0, 0, 0, 0.15);
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 45px;
+	color: rgb(100, 100, 100);
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
